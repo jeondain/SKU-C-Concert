@@ -1,12 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	char str[100];
 
-	printf("ÅØ½ºÆ®¸¦ ÀÔ·ÂÇÑ´Ù : ");
+	printf("í…ìŠ¤íŠ¸ë¥¼ ì…ë ¥í•œë‹¤ : ");
 	gets_s(str, 99);
-	printf("ÃÖÁ¾ ÅØ½ºÆ® : ");
+	printf("ìµœì¢… í…ìŠ¤íŠ¸ : ");
 
 	for (int i = 0; str[i] != '\0'; i++) {
 		if (str[i] != 'A' && str[i] != 'E' && str[i] != 'I' && str[i] != 'O' && str[i] != 'U' &&
