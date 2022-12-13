@@ -18,5 +18,5 @@ int main() {
         printf("%d ", data[i]);
     }
     putchar('\n');
-    printf("¹è¿­ ¿ä¼ÒÀÇ ÇÕ = %d\n", get_array_sum(data, 10));
+    printf("ë°°ì—´ ìš”ì†Œì˜  = %d\n", get_array_sum(data, 10));
 }
