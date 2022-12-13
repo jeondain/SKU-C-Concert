@@ -18,5 +18,5 @@ int main() {
         printf("%d ", data[i]);
     }
     putchar('\n');
-    printf("배열 요소의  = %d\n", get_array_sum(data, 10));
+    printf("배열 요소의 합 = %d\n", get_array_sum(data, 10));
 }
