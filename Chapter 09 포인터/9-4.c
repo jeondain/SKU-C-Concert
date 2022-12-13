@@ -12,6 +12,6 @@ int main() {
 
     get(PI, &i_part, &f_part);
 
-    printf("Á¤¼öºÎ = %d\n", i_part);
-    printf("¼Ò¼öºÎ = %lf\n", f_part);
+    printf("ì •ìˆ˜ë¶€ = %d\n", i_part);
+    printf("ì†Œìˆ˜ë¶€ = %lf\n", f_part);
 }
